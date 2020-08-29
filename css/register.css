@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  .w {
+      width: 1200px;
+      margin: 0 auto;
+  }
+
+  .header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+    padding-top: 18px;
+  }
+  .registeraera {
+      height: 522px;
+      margin-top:20px;
+      border: 1px solid #ccc;
+  }
+  .registeraera h3 {
+      height: 42px;
+      background-color: #ececec;
+      border: 1px solid #ccc;
+      line-height: 42px;
+    padding: 0 10px;
+/* 这里能生效时因为浮动以后就自动转化为行内块元素了吗 */
+  }
+
+  
+  .registeraera h3 .reg {
+      float: left;
+      font-weight: 400;
+      font-size: 18px;
+      color: #666666;
+  }
+  .registeraera h3 .login {
+      float: right;
+      font-weight: 400;
+      font-size: 14px;
+      color: #666666;
+  }
+  .registeraera h3 a { 
+    font-weight: 400;
+    font-size: 14px;
+    color: tomato;
+  }
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+   
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+  .reg_form ul li label {
+      text-align: right;
+      display: inline-block;
+      width: 88px;
+  }
+
+  .reg_form ul li input {
+      width: 242px;
+      height: 37px;
+      border: 1px solid #ccc;
+  }
+
+  .reg_form ul li i {
+      display: inline-block;
+  }
+  .reg_form ul li .icon {
+      width: 20px;
+      height: 20px;
+      background-image: url(../imges/error.png);
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      margin-top: -2px;
+  }
+  .reg_form ul li .error {
+      color: red;
+  }
+
+  .reg_form ul li .success {
+      color: green;
+  }
+  .reg_form ul li .icon-success {
+    width: 20px;
+    height: 20px;
+    background-image: url(../imges/success.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+  }
+
+
+  /* .reg_form ul li span::before {
+      content: "";
+      width: 18px;
+      height: 18px;
+      background-image: url(../imges/error.png);
+  } */

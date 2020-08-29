@@ -1,0 +1,317 @@
+/* 写一些公共样式   */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?tomleg');
+  src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+    url('../fonts/icomoon.woff?tomleg') format('woff'),
+    url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* 版心 */
+  .w {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* 头部样式 */
+
+.shortcut {
+  height: 31px;
+  background-color: #f1f1f1;
+  line-height: 31px;
+}
+
+.style_red {
+  color: #c81623;
+}
+/* .shortcut .fl ul li {
+  float: left;
+
+} */
+
+.shortcut .fl  {
+  float: left;
+
+}
+.fl {
+  float: left;
+
+}
+.fr {
+  float: right;
+}
+/* 说明：盒子浮动以后就自动转化为行内块元素，这里不给宽高显示不出来，高是继承的，宽是内容的宽度 */
+
+.shortcut ul  li {
+  float: left;
+  color:#666666
+}
+/* fr盒子整体有浮动了，盒子里的li左浮动 */
+.shortcut .fr ul li:nth-child(2n) {
+  padding:0 15px;
+}
+
+.arr-icon::after {
+  content: "\e91e";
+  font-family:"icomoon";
+  margin-left: 6px;
+}
+
+
+
+/* header样式 */
+
+.header {
+  height: 105px;
+  /* background-color: pink; */
+  position: relative;
+}
+
+.logo {
+  height: 62px;
+  width: 171px;
+  /* background-color: skyblue; */
+  position: absolute;
+  top: 25px;
+}
+
+.logo a {
+  display: block;
+  height: 62px;
+  width: 171px;
+  background-image: url(../imges/logo.png);
+  background-repeat: no-repeat;
+  /* font-size: 0px; */
+  text-indent: -9999px;
+  overflow: hidden;
+
+}
+.search {
+  width: 538px;
+  height: 36px;
+  position: absolute;
+  top: 25px;
+  left: 346px;
+  border: 2px solid #c81623;
+}
+
+.search input {
+  width: 454px;
+  height: 32px;
+  float: left;
+  padding-left: 10px;
+}
+.search button {
+  height: 32px;
+  width: 80px;
+  background-color: #c81623;
+  float: left;
+  color: white;
+}
+
+.hotwords {
+  position: absolute;
+  top: 65px;
+  left: 346px;
+}
+.hotwords a {
+  margin: 0 10px;
+}
+
+/* 购物车模块 */
+.shopcar {
+  width: 140px;
+  height: 35px;
+  position: absolute;
+  top: 25px;
+  right: 60px;
+  background-color: #f7f7f7;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+  line-height: 35px;
+}
+
+.shopcar::before {
+content: "\e93a";
+font-family: 'icomoon';
+color: #c81623;
+margin-right: 6px;
+}
+
+.shopcar::after {
+  content: "\e920";
+  font-family: 'icomoon';
+  color: #666666;
+  margin-left: 5px;
+}
+.shopcar .count {
+  position: absolute;
+  top: -5px;
+  left: 100px;
+  height: 14px;
+  line-height: 14px;
+  padding: 0 4px;
+  color: white;
+  background-color: #c81623;
+  border-radius: 7px 7px 7px 0;
+
+}
+/* 以后写定位，因为情况复杂，所以写完position一定要写具体方位，哪怕是在左上角，也要写上top:0和left:0。哪怕写完再调整呢 */
+
+
+.nav {
+  height: 47px;
+  border-bottom: 2px solid #c81623;
+}
+.nav .dropdown {
+  height: 45px;
+  width: 210px;
+  background-color: #c81623;
+}
+.nav .dropdown .dt {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.dropdown .dd {
+  width: 100%;
+  background-color: red;
+  padding: 0 0 0 2px;
+  /* display: none; */
+}
+/* .dropdown:hover .dd{
+  display: block;
+} */
+.dropdown .dd ul li {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.dropdown .dd ul li::after{
+  content: "\e920";
+  font-family: 'icomoon';
+  color: blue;
+  font-size: 12px;
+  float: right;
+}
+
+
+.dropdown .dd ul li a {
+  /* display: block; */
+  /* float: left; */
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 14px;
+
+}
+
+.dropdown .dd ul li:hover a{
+  color: #c81623;
+}
+
+.dropdown .dd ul li:hover {
+  background-color: #fff;
+}
+
+
+
+.navitem ul li {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+
+}
+
+.navitem ul li a {
+  display: block;
+  font-size: 16px;
+  color: #666666;
+  height: 45px;
+  padding: 0 20px;
+}
+
+.nav .navitem {
+  padding: 0 15px;
+} 
+
+/* 先把公共部分写完，因为现在写的是common的css。 */
+
+  /* 底部样式 */
+
+.footer {
+  height: 415px;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+}
+.mod_service {
+  height: 80px;
+  border-bottom: 1px solid #555555;
+  
+}
+.mod_service ul li {
+  width: 240px;
+  float: left;
+}
+.mod_service ul li h3 {
+  float: left;
+}
+.mod_service ul li .service_text {
+  float: left;
+}
+.mod_service ul li h3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: pink;
+  margin-right: 5px;
+  background-image: url(../imges/icons.png);
+  background-position: -252px -2px;
+}
+.mod_service ul li .service_text h4 {
+  font-size: 14px;
+  color: #555555;
+}
+.mod_service ul li .service_text p {
+  font-size: 12px;
+  color: #555555;
+}
+.mod_help {
+  height: 185px;
+  border-bottom: 1px solid #555555;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.mod_help dt {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.mod_help dd {
+  font-size: 12px;
+  padding-top: 3px;
+}
+.mod_help dl {
+  float: left;
+  width: 200px;
+}
+.mod_help dl:last-child {
+  width: 90px;
+  text-align: center;
+}
+.mod_copyrught {
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+

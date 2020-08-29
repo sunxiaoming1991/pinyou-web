@@ -1,0 +1,412 @@
+.main {
+width: 980px;
+height: 455px;
+}
+.focus {
+    width: 721px;
+    height: 455px;
+    /* background-color: purple; */
+}
+.newsflash {
+    width: 250px;
+    height: 455px;
+   
+}
+
+.newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.newsflash .lifeservice {
+    height: 209px;
+    /* background-color: purple; */
+}
+.newsflash .bargain {
+    margin-top: 6px;
+}
+
+
+/* .newsflash .news h4 {
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom: 1px solid #666666;
+}
+
+.newsflash .news {
+    padding-left: 12px;
+}
+.newsflash .news dl dt {
+    margin-right: 3px;
+} */
+
+.news .news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #666666;
+    padding: 0 12px;
+}
+.news .news-hd h5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.news .news-hd a::after {
+    content: "\e920";
+    font-family: "icomoon";
+}
+
+.news .news-bd {
+    padding: 0 12px;
+}
+
+.news .news-bd li {
+    height: 24px;
+    line-height: 24px;
+}
+.news .news-bd li a {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.newsflash .lifeservice ul {
+    width: 252px;
+}
+.newsflash .lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+.newsflash .lifeservice {
+    overflow: hidden;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+}
+.newsflash .lifeservice li span {
+    font-family: "icomoon";
+    font-size: 28px;
+    color: rgb(207, 2, 2);
+
+}
+.newsflash .lifeservice li p {
+    font-size: 12px;
+}
+
+.recomand {
+    height: 164px;
+    margin-top:11px;
+    background-color:#ebebeb;
+}
+.recomand .recom-hd {
+    width: 206px;
+    height: 164px;
+    background-image: url(../imges/recom.png) ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-color: #5c5351;
+   
+
+}
+
+.recomand .recom-list {
+    width: 994px;
+}
+
+.recomand .recom-list li {
+    float: left;
+    height: 163px;
+    width: 247px;
+    background-color: darkseagreen;
+}
+.recomand .recom-list li img {
+    height: 163px;
+    width: 248px;
+}
+
+.recomand .recom-list ul li:nth-child(2n) {
+    width: 1px;
+    background-color: #ddd;
+    height: 144px;
+    margin-top: 10px;
+
+}
+
+/* 猜你喜欢部分开始 */
+.guess {
+    height: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.guess h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
+.guess .change::after {
+    content: "\ea2e";
+    font-family: "icomoon";
+    font-size: 14px;
+    color: rgb(109, 109, 109);
+    margin: 0 15px 0 7px;
+
+}
+
+.list-guess {
+    height: 232px;
+    border: 1px solid #5c5351;
+}
+.list-guess ul li {
+    width: 199px;
+    height: 232px;
+    float: left;
+    
+    
+}
+.list-guess ul li .pic_info {
+    width: 199px;
+    height: 142px;
+    margin-top: 20px;
+    background-image: url(../upload/图层159.png);
+    background-repeat: no-repeat;
+    background-position:top center;
+}
+.list-guess h5,.list-guess p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 35px;
+}
+
+.list-guess .price {
+    margin-left: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+}
+
+
+/* 传智播客有趣区 */
+
+.interesting {
+    height: 406px;
+    /* background-color: pink; */
+}
+.interesting .in-top {
+    width: 405px;
+    height: 406px;
+    background-color: #b7bedd;
+    background-image: url(../upload/图层130.png);
+    background-repeat: no-repeat;
+    background-position:126px 112px;
+    position: relative;
+}
+
+.interesting .in-top h4 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #3f4287;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.interesting .in-top p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #3f4287;
+    position: absolute;
+    top: 38px;
+    left: 15px;
+}
+.interesting .goodthing {
+    width: 228px;
+    height: 406px;
+ 
+}
+.interesting .goodthing h4,
+.interesting .brand h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px dashed #666666;
+    margin: 0 17px;
+}
+
+.interesting .goodthing .goodone {
+    height: 207px;
+    border-bottom: 1px solid #666666;
+    background-image: url(../upload/index-interest-01_03.png);
+}
+
+.interesting .goodthing .goodtwo {
+    height: 160px;
+    background-image: url(../upload/images/index-interest-02_06.png);
+}
+
+.interesting .brand {
+    width: 404px;
+    height: 406px;
+    background-color: #f7f7f7;
+}
+.interesting .brand .brand-one {
+    height: 207px;
+    border-bottom: 1px solid #666666;
+}
+.interesting .brand .brand-one a {
+    display: block;
+    height: 207px;
+    /* border-right: 1px solid #666666; */
+    background-image: url(../upload/图层132.png);
+    background-repeat: no-repeat;
+    background-position: 160px 35px;
+}
+.interesting .brand .brand-two .brand_left a {
+    display: block;
+    height: 158px;
+    width: 202px;
+    background-image: url(../upload/图层134.png);
+    background-repeat: no-repeat;
+    background-position: 60px 25px;
+}
+.interesting .brand .brand-two .brand_right a {
+    display: block;
+    height: 158px;
+    width: 202px;
+    background-image: url(../upload/图层135.png);
+    background-repeat: no-repeat;
+    background-position: 60px 25px;
+}
+
+
+ 
+.interesting .morebrand {
+    width: 163px;
+    height: 406px;
+    border: 1px solid #666666;
+    /* background-color: darkseagreen; */
+
+}
+.interesting .morebrand {
+    padding-left: 7px;
+    /* padding-top: 14px; */
+    padding-bottom: 14px;
+
+}
+
+.interesting .morebrand ul li a{
+    display: block;
+    float: left;
+    height: 58px;
+    width: 77px;
+
+}
+.interesting .morebrand ul li {
+    height: 58px;
+    width: 77px;
+    float: left;
+    border-bottom: 1px dashed #666666;
+    /* background-color: pink; */
+
+}
+.interesting .morebrand ul li:nth-child(n+13){
+    border-bottom: none;
+    padding-bottom: 12px;
+}
+
+.interesting .morebrand ul li:nth-child(-n+2) {
+    padding-top: 8px;
+}
+
+.interesting .morebrand ul li:nth-child(n+13) {
+    padding-bottom: 8px;
+}
+
+.interesting .morebrand ul li a img {
+    height: 48px;
+    width: 76px;
+}
+
+.interesting .morebrand ul li:nth-child(2n+1) a{
+    border-right: 1px dashed #666666;
+   
+}
+.interesting .morebrand ul li:nth-child(n+13) a {
+    height: 48px;
+}
+
+/* 家用电器 */
+
+.jiadian .box_hd {
+    height: 30px;
+    border-bottom: 1px solid #c81632;
+}
+.jiadian .box_hd h3 {
+ float: left;
+ font-size: 18px;
+ font-weight: 400;
+ color:#c81632 ;
+
+}
+.jiadian .box_hd .tab_list {
+    line-height: 30px;
+}
+
+.jiadian .box_hd .tab_list ul li {
+    float: left;
+}
+.jiadian .box_hd .tab_list ul li a {
+    margin: 0 15px;
+}
+.jiadian .box_bd {
+    height: 361px;
+}
+
+.box_bd .tab_cotent .tab_list_item>div {
+    height: 361px;
+    float: left;
+}
+.col_210 {
+    width: 210px;
+    background-color: #b3b0b0;
+    float: left;
+}
+.col_329 {
+    width: 329px;
+    background-color: rgb(110, 92, 92);
+    float: left;
+}
+.col_221 {
+    width: 221px;
+    background-color: rgb(165, 142, 142);  float: left;
+}
+.col_219 {
+    width: 219px;
+    background-color: rgb(46, 43, 43);  float: left;
+}
+
+/* .tab_list_item a {
+    display: block;
+} */
+
+.tab_list_item .col_210 ul {
+    margin-left: 15px;
+}
+
+.tab_list_item .col_210 ul li {
+    width: 85px;
+    height: 34px;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+}
+.tab_list_item .col_210 ul li:nth-child(2n) {
+    margin-left: 10px;
+}
+
